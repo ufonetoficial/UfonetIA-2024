@@ -1,8 +1,4 @@
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-multiverse-welcome_small.png "UFONet Welcome")
-
-----------
-
- + Website:   https://ufonet.03c8.net
+  ![UFONet IA version 2024]
 
 ----------
 
@@ -22,8 +18,6 @@ on a direct-connect P2P architecture.
 
    - CWE-601:Open Redirect: 
      https://cwe.mitre.org/data/definitions/601.html
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-schema.png "UFONet Schema")
 
    - LOIC: 
      https://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon
@@ -75,7 +69,8 @@ on a direct-connect P2P architecture.
 
    - NUKE: 
      https://dl.packetstormsecurity.net/papers/general/tcp-starvation.pdf
-
+   - ChatGpt3.5:
+     https://chatgpt.es/
 ----------
 
 #### Installing:
@@ -92,7 +87,7 @@ on a direct-connect P2P architecture.
        python3-scapy - Packet crafting/sniffing/manipulation/visualization security tool
 
   You can automatically get all required libraries using (as root):
-
+       sudo bash install.sh
        python3 setup.py install
 
   For manual installation, on Debian-based systems (ex: Ubuntu), run:
